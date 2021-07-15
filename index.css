@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* .background{
+    background: url("https://source.unsplash.com/music?instrument"); 
+    height: 500px;
+    width: 1600px;
+    opacity: 0.7; 
+}*/
+.heading{
+    /* background-color: red; just for recogition */
+    font-size: 125%;
+    font-weight: 600;
+    width: 10%;
+    height: inherit;
+    text-shadow: -1px 2px 4px  black;
+}
+#head-bar{
+    /* background-color: yellow; just for recognition */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+.menu-img{
+    display: block;
+    height: 40px;
+    /* width: 20px; */
+}
+
+.hidden{
+    /* display: none; */
+    height: 200px;
+    width: 75px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    left: 30px;
+    /* need a litte bit of transitions here :)) */
+    
+} 
+ 
+/* the code for the intro of tushar starts here */
+.intro-tushar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:red; */
+}
+#tushar-img{
+    height: 250px;
+    width: 250px;
+    border-radius:250px ;
+    box-shadow: 0px 0px 10px 5px rgb(44, 44, 44);
+}
+#desc-tushar{
+    text-align: center;
+    font-size: 125%;
+    width: 33%;
+    font-weight: lighter;
+}
+/* ends here  */
+
+.iframe{
+    width: 250px;
+    height: 250px;
+}
+.my-work{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height : max-content;
+    width: 100%;
+    /* background-color: red; */
+}
